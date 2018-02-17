@@ -5,6 +5,6 @@ do
 rm -rf processor$i
 done
 decomposePar
-mpirun -np 15 rhoCentralFoam -parallel 
+mpirun -np 16 rhoCentralFoam -parallel 
 reconstructPar
 foamToVTK
