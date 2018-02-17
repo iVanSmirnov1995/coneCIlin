@@ -1,10 +1,10 @@
 #!/bin/bash
 
-for (( i=0; i <= 31; i++ ))
+for (( i=0; i <= 15; i++ ))
 do
 rm -rf processor$i
 done
 decomposePar
-mpirun -np 32 rhoCentralFoam -parallel 
+mpirun -np 15 rhoCentralFoam -parallel 
 reconstructPar
 foamToVTK
