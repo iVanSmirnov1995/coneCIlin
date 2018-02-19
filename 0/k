@@ -45,9 +45,7 @@ boundaryField
     }
     front
     {
-        type            inletOutlet;
-        inletValue      $internalField;
-        value           $internalField;
+        type            empty;
     }
 
     symmetry

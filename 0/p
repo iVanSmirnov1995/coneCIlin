@@ -33,8 +33,7 @@ boundaryField
 
     front
     {
-        type            freestream;
-        freestreamValue           101325;
+        type            empty;
     }
 
     symmetry

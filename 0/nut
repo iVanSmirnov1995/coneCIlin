@@ -37,8 +37,7 @@ boundaryField
 
     front
     {
-        type            calculated;
-        value           uniform 0;
+        type            empty;
     }
 
     symmetry

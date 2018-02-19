@@ -38,8 +38,7 @@ boundaryField
 
     front
     {
-        type            freestream;
-        freestreamValue           $internalField;
+        type            empty;
     }
 
     symmetry

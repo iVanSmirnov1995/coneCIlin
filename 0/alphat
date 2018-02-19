@@ -41,7 +41,7 @@ boundaryField
 
     front
     {
-         type            zeroGradient;
+         type            empty;
     }
 
     symmetry
