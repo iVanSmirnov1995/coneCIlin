@@ -31,8 +31,7 @@ boundaryField
 
     outlet
     {
-        type            calculated;
-        value           uniform 0;
+        type            zeroGradient;
     }
 
     front

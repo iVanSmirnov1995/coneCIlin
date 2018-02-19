@@ -28,7 +28,7 @@ boundaryField
 
     outlet
     {
-	type            zeroGradient;
+	   type            zeroGradient;
     }
 
     front
