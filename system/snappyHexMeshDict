@@ -31,7 +31,7 @@ geometry // Load in STL files here
         type searchableCylinder;
         point1 (10.0 0 0);
         point2 (6.5 0 0);
-    radius 1.60;
+    radius 0.60;
     }
 };
 
@@ -48,7 +48,7 @@ castellatedMeshControls
 
     features // taken from STL from each .eMesh file created by "SurfaceFeatureExtract" command
     (
-        {file "coneCylinder.eMesh"; level 3;} 
+        {file "coneCylinder.eMesh"; level 1;} 
        // {file "nozzle.eMesh"; level 7;} 
     );
 
