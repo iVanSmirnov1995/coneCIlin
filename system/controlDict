@@ -16,7 +16,7 @@ FoamFile
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 functions
 {
-   // #include "forces.H"
+    #include "forces.H"
 }
 
 application     rhoCentralFoam;
