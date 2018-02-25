@@ -27,13 +27,13 @@ startTime       0;
 
 stopAt          endTime;
 
-endTime         0.3;
+endTime         0.12;
 
 deltaT          0.000003;
 
 writeControl    adjustableRunTime;
 
-writeInterval   0.005;
+writeInterval   0.012;
 
 cycleWrite      0;
 
