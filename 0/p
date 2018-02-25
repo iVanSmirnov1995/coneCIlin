@@ -22,8 +22,14 @@ boundaryField
 {
     inlet
     {
-        type            freestream;
-        freestreamValue           101325;
+        type            totalPressure;
+        value           uniform 101325;
+        p0              uniform 101325;
+        U               U;
+        phi             phi;
+        rho             none;
+        psi             thermo:psi;
+        gamma           1.4;
     }
 
     outlet
@@ -33,8 +39,7 @@ boundaryField
 
     front
     {
-        type            freestream;
-        freestreamValue           101325;
+        type            zeroGradient;
     }
 
     symmetry
@@ -44,8 +49,7 @@ boundaryField
 
     topAndBottom
     {
-        type            freestream;
-        freestreamValue           101325;
+        type            zeroGradient;
     }
 
     coneCylinder
