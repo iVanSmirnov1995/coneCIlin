@@ -68,7 +68,7 @@ castellatedMeshControls
     {
 	//nozzle {level (0 0);} // was 4 4
 	coneCylinder {level (3 3);}
-	nozzle {level (6 6);}
+	nozzle {level (3 3);}
  // was 4 4
     }  
 
