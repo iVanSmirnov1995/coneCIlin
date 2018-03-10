@@ -57,11 +57,11 @@ boundaryField
         value           uniform 0;
     }
 
-    /*nozzle
+    nozzle
     {
         type            calculated;
         value           uniform 0;
-    }*/
+    }
 
 
 

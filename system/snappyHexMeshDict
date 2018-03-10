@@ -24,6 +24,7 @@ geometry // Load in STL files here
 {
 	//nozzle.stl {type triSurfaceMesh; name nozzle;}
 	coneCylinder.stl {type triSurfaceMesh; name coneCylinder;}
+	nozzle.stl {type triSurfaceMesh; name nozzle;}
 	//kobraFull.stl {type triSurfaceMesh; name kobraFull;}
 	//refinementBox {type searchableBox; min (-0.1 -0.1 -0.05); max ( 0.1 0.1 0.05);}
     cylinder
@@ -32,6 +33,14 @@ geometry // Load in STL files here
         point1 (10.0 0 0);
         point2 (6.5 0 0);
     radius 0.60;
+    }
+
+    cylinder2
+    {
+        type searchableCylinder;
+        point1 (4 4 0);
+        point2 (4 0 0);
+    radius 0.4;
     }
 };
 
@@ -59,12 +68,19 @@ castellatedMeshControls
     {
 	//nozzle {level (0 0);} // was 4 4
 	coneCylinder {level (3 3);}
+	nozzle {level (6 6);}
  // was 4 4
     }  
 
     refinementRegions
     {
          cylinder
+        {
+            mode inside;
+            levels ((3 3));
+        }
+
+        cylinder2
         {
             mode inside;
             levels ((3 3));

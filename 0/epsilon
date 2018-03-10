@@ -58,12 +58,12 @@ boundaryField
         value           $internalField;
     }
 
-    /*nozzle
+    nozzle
     {
         type            freestream;
       //  inletValue      $internalField;
         freestreamValue           $internalField;
-    }*/
+    }
 
 }
 

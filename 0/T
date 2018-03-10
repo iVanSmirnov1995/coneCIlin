@@ -56,11 +56,11 @@ boundaryField
     }
 
 
-   /* nozzle
+    nozzle
     {
     type            fixedValue;
-    value uniform 400;
-    }*/
+    value uniform 300;
+    }
 
 
 }
