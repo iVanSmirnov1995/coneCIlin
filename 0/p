@@ -54,7 +54,7 @@ boundaryField
 
     nozzle
     {
-    type            inletoutlet;
+    type            pressureInletOutletVelocity;
 	value uniform 810600;
     }
 
