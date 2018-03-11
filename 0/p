@@ -54,8 +54,12 @@ boundaryField
 
     nozzle
     {
-    type            outletInlet;
-	value uniform 810600;
+        type            totalPressure;
+        value           uniform 810600;
+        p0              uniform 810600;
+        rho             none;
+        psi             thermo:psi;
+        gamma           1.4;
     }
 
 }
