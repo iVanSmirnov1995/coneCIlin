@@ -55,8 +55,8 @@ boundaryField
     nozzle
     {
         type            totalPressure;
-        value           uniform 510600;
-        p0              uniform 510600;
+        value           uniform 810600;
+        p0              uniform 810600;
         rho             none;
         psi             thermo:psi;
         gamma           1.4;
