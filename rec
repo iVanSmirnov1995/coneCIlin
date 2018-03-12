@@ -1,0 +1,11 @@
+#!/bin/bash
+
+for (( i=0; i <= 31; i++ ))
+do
+cd processor$i
+rm -rf 0.0123
+done
+decomposePar
+mpirun -np 32 rhoCentralFoam -parallel 
+reconstructPar
+foamToVTK
