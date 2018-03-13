@@ -3,5 +3,5 @@
 for (( i=0; i <= 31; i++ ))
 do
 cd processor$i
-rm -rf 0.0123
+rm -rf 0.0328
 done
