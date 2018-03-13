@@ -49,13 +49,13 @@ boundaryField
 
     coneCylinder
     {
-        type            fixedValue;
-        value           uniform (0 0 0);
+        type            noSlip;
     }
 
     nozzle
     {
-      type            zeroGradient;
+        type            fixedValue;
+        value           uniform (0 700 0);
     }
 
 
