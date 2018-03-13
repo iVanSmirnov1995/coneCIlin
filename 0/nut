@@ -25,13 +25,14 @@ boundaryField
 
     inlet
     {
-         type            freestream;
-	freestreamValue 0;
+        type            calculated;
+        value           uniform 0;
     }
 
     outlet
     {
-        type            zeroGradient;
+        type            calculated;
+        value           uniform 0;
     }
 
     front

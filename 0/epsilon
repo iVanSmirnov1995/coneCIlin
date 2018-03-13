@@ -48,9 +48,7 @@ boundaryField
     
     topAndBottom
     {
-        type            inletOutlet;
-        inletValue      $internalField;
-        value           $internalField;
+        type            zeroGradient;
     }
     coneCylinder
     {
@@ -60,9 +58,8 @@ boundaryField
 
     nozzle
     {
-        type            freestream;
-      //  inletValue      $internalField;
-        freestreamValue           $internalField;
+        type            fixedValue;
+        value           450;
     }
 
 }

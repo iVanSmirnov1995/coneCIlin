@@ -25,8 +25,8 @@ boundaryField
 
     inlet
     {
-         type            freestream;
-	freestreamValue 0;
+        type            calculated;
+        value           uniform 0;
     }
 
 
@@ -34,13 +34,15 @@ boundaryField
 
     outlet
     {
-        type            zeroGradient;
+        type            calculated;
+        value           uniform 0;
     }
 
 
     front
     {
-         type            zeroGradient;
+        type            calculated;
+        value           uniform 0;
     }
 
     symmetry
@@ -50,7 +52,8 @@ boundaryField
     
     topAndBottom
     {
-         type            zeroGradient;
+        type            calculated;
+        value           uniform 0;
     }
 
     coneCylinder
