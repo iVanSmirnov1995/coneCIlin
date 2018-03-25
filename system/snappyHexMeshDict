@@ -57,7 +57,7 @@ castellatedMeshControls
 
     features // taken from STL from each .eMesh file created by "SurfaceFeatureExtract" command
     (
-        {file "coneCylinder.eMesh"; level 7;} 
+        {file "coneCylinder.eMesh"; level 1;} 
        // {file "nozzle.eMesh"; level 7;} 
     );
 
