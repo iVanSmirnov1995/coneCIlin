@@ -57,7 +57,7 @@ castellatedMeshControls
 
     features // taken from STL from each .eMesh file created by "SurfaceFeatureExtract" command
     (
-        {file "coneCylinder.eMesh"; level 5;} 
+        {file "coneCylinder.eMesh"; level 6;} 
        // {file "nozzle.eMesh"; level 7;} 
     );
 
@@ -82,11 +82,11 @@ castellatedMeshControls
             levels ((3 3));
         }
 
-        cylinder2
-        {
-            mode inside;
-            levels ((3 3));
-        }
+        // cylinder2
+        // {
+        //     mode inside;
+        //     levels ((3 3));
+        // }
        /* roket
         {
            mode distance;
