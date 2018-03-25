@@ -36,9 +36,7 @@ boundaryField
     }
     front
     {
-        type            inletOutlet;
-        inletValue      $internalField;
-        value           $internalField;
+        type            zeroGradient;
     }
 
     symmetry
