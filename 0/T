@@ -24,29 +24,23 @@ boundaryField
 
     inlet
     {
-    type            fixedValue;
-    value uniform 300;
-    }
-
-    outlet
-    {
         type            totalTemperature;
         value           uniform 300;
         T0              uniform 300;
         rho             none;
         psi             thermo:psi;
         gamma           1.4;
+    }
+
+    outlet
+    {
+        type            zeroGradient;
     }
 
 
     front
     {
-        type            totalTemperature;
-        value           uniform 300;
-        T0              uniform 300;
-        rho             none;
-        psi             thermo:psi;
-        gamma           1.4;
+        type            zeroGradient;
     }
 
     symmetry

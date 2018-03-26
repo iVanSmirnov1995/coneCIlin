@@ -33,21 +33,15 @@ boundaryField
 
     outlet
     {
-        type            inletOutlet;
-        inletValue      $internalField;
-        value           $internalField;
+       type            zeroGradient;
     }
     bottom
     {
-        type            inletOutlet;
-        inletValue      $internalField;
-        value           $internalField;
+       type            zeroGradient;
     }
     front
     {
-        type            inletOutlet;
-        inletValue      $internalField;
-        value           $internalField;
+       type            zeroGradient;
     }
 
     symmetry
@@ -57,9 +51,7 @@ boundaryField
 
     topAndBottom
     {
-        type            inletOutlet;
-        inletValue      $internalField;
-        value           $internalField;
+       type            zeroGradient;
     }
 
     coneCylinder
