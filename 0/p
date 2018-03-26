@@ -27,17 +27,17 @@ boundaryField
 
     outlet
     {
+        type            zeroGradient;
+    }
+
+    front
+    {
         type            totalPressure;
         value           uniform 101325;
         p0              uniform 101325;
         rho             none;
         psi             thermo:psi;
         gamma           1.4;
-    }
-
-    front
-    {
-       type            zeroGradient;
     }
 
     symmetry
