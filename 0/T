@@ -34,7 +34,12 @@ boundaryField
 
     outlet
     {
-        type            zeroGradient;
+        type            totalTemperature;
+        value           uniform 300;
+        T0              uniform 300;
+        rho             none;
+        psi             thermo:psi;
+        gamma           1.4;
     }
 
 
