@@ -49,7 +49,7 @@ boundaryField
 
     coneCylinder
     {
-        type            noSlipp;
+        type            noSlip;
     }
 
     nozzle
