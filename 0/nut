@@ -55,6 +55,9 @@ boundaryField
     coneCylinder
     {
         type            nutkWallFunction;
+        Cmu             0.09;
+        kappa           0.41;
+        E               9.8;
         value           uniform 0;
     }
 
