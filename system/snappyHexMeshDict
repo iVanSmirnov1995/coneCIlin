@@ -108,7 +108,7 @@ castellatedMeshControls
 	coneCylinder {level (3 3);
         patchInfo { type wall;}
     }
-	kob {level (5 5);}
+	nozzle {level (5 5);}
  // was 4 4
     }  
 
@@ -183,7 +183,7 @@ addLayersControls //add the PATCH names from inside the STL file so STLpatchName
     relativeSizes false; // was true
     layers
     {
-    nozzle {nSurfaceLayers 3;} // was 3
+    kob {nSurfaceLayers 3;} // was 3
     }
 
     expansionRatio 1.3;
