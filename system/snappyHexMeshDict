@@ -108,7 +108,7 @@ castellatedMeshControls
 	coneCylinder {level (3 3);
         patchInfo { type wall;}
     }
-	nozzle {level (5 5);}
+	nozzle {level (3 3);}
  // was 4 4
     }  
 
@@ -138,11 +138,11 @@ castellatedMeshControls
             levels ((3 3));
         }
 
-        cylinder21
-        {
-            mode inside;
-            levels ((6 6));
-        }
+        // cylinder21
+        // {
+        //     mode inside;
+        //     levels ((6 6));
+        // }
        /* roket
         {
            mode distance;
