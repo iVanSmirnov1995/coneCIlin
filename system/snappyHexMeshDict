@@ -69,6 +69,17 @@ geometry // Load in STL files here
         point2 (1.5 0 0);
     radius 0.3;
     }
+
+
+    cylinder21
+    {
+        type searchableCylinder;
+        point1 (1.5 0.15 0);
+        point2 (1.5 0 0);
+    radius 0.05;
+    }
+
+
 };
 
 castellatedMeshControls
@@ -125,6 +136,12 @@ castellatedMeshControls
         {
             mode inside;
             levels ((4 4));
+        }
+
+        cylinder21
+        {
+            mode inside;
+            levels ((5 5));
         }
        /* roket
         {
