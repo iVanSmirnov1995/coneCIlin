@@ -62,8 +62,9 @@ boundaryField
 
     nozzle
     {
-        type            fixedValue;
-        value           450;
+        type            inletOutlet;
+        inletValue      $internalField;
+        value           $internalField;
     }
 
 }
