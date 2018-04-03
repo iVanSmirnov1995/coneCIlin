@@ -15,13 +15,13 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-simulationType RAS;
+simulationType laminar;
 
 RAS
 {
     // Tested with kEpsilon, realizableKE, kOmega, kOmegaSST, v2f,
     // ShihQuadraticKE, LienCubicKE.
-    RASModel        realizableKE;
+    RASModel        kEpsilon;
 
     turbulence      on;
 
