@@ -113,7 +113,7 @@ castellatedMeshControls
     refinementSurfaces // Surface-wise min and max refinement level
     {
 	//nozzle {level (0 0);} // was 4 4
-	coneCylinder {level (4 4);
+	coneCylinder {level (3 3);
         patchInfo { type wall;}
     }
 	nozzle {level (3 3);}
@@ -137,13 +137,13 @@ castellatedMeshControls
         cylinder5
         {
             mode inside;
-            levels ((5 5));
+            levels ((4 4));
         }
 
         cylinder51
         {
             mode inside;
-            levels ((5 5));
+            levels ((4 4));
         }
 
         // cylinder2
