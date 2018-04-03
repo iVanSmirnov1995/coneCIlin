@@ -103,7 +103,7 @@ castellatedMeshControls
 
     features // taken from STL from each .eMesh file created by "SurfaceFeatureExtract" command
     (
-        {file "coneCylinder.eMesh"; level 1;} 
+        {file "coneCylinder.eMesh"; level 5;} 
        // {file "nozzle.eMesh"; level 7;} 
     );
 
@@ -116,7 +116,7 @@ castellatedMeshControls
 	coneCylinder {level (3 3);
         patchInfo { type wall;}
     }
-	nozzle {level (5 5);}
+	nozzle {level (3 3);}
  // was 4 4
     }  
 
