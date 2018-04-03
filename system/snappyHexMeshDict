@@ -125,25 +125,25 @@ castellatedMeshControls
          cylinder
         {
             mode inside;
-            levels ((1 1));
+            levels ((2 2));
         }
 
          cylinder4
         {
             mode inside;
-            levels ((1 1));
+            levels ((2 2));
         }
 
         cylinder5
         {
             mode inside;
-            levels ((1 1));
+            levels ((2 2));
         }
 
         cylinder51
         {
             mode inside;
-            levels ((3 3));
+            levels ((4 4));
         }
 
         // cylinder2
