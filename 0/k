@@ -17,7 +17,7 @@ FoamFile
 
 dimensions      [0 2 -2 0 0 0 0];
 
-internalField   uniform 12.32;
+internalField   uniform 123.32;
 
 boundaryField
 {
@@ -70,8 +70,8 @@ boundaryField
 
     nozzle
     {
-        type            kqRWallFunction;
-        value           $internalField;
+        type            fixedValue;
+        value           250;
     }
 
 }
