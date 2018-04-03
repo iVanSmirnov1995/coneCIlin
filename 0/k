@@ -70,8 +70,8 @@ boundaryField
 
     nozzle
     {
-        type            fixedValue;
-        value           250;
+        type            kqRWallFunction;
+        value           $internalField;
     }
 
 }

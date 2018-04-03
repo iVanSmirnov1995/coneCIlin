@@ -62,8 +62,8 @@ boundaryField
 
     nozzle
     {
-        type            fixedValue;
-        value           450;
+        type            epsilonWallFunction;
+        value           $internalField;
     }
 
 }
