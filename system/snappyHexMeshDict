@@ -197,7 +197,7 @@ addLayersControls //add the PATCH names from inside the STL file so STLpatchName
     relativeSizes false; // was true
     layers
     {
-    nozzle {nSurfaceLayers 3;} // was 3
+    kob {nSurfaceLayers 3;} // was 3
     }
 
     expansionRatio 1.3;
