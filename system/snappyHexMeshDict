@@ -35,6 +35,14 @@ geometry // Load in STL files here
     radius 0.30;
     }
 
+    cylinderDon
+    {
+        type searchableCylinder;
+        point1 (2.9 0 0);
+        point2 (3.2 0 0);
+    radius 0.10;
+    }
+
     cylinder5
     {
         type searchableCylinder;
@@ -146,6 +154,11 @@ castellatedMeshControls
             levels ((4 4));
         }
 
+        cylinderDon
+        {
+            mode inside;
+            levels ((3 3));
+        }
         // cylinder2
         // {
         //     mode inside;
