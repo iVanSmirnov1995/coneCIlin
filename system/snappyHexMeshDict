@@ -56,7 +56,7 @@ geometry // Load in STL files here
         type searchableCylinder;
         point1 (2.52 0 0);
         point2 (2.76 0 0);
-    radius 0.25;
+    radius 0.282;
     }
 
 
