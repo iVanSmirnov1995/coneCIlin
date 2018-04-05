@@ -124,7 +124,7 @@ castellatedMeshControls
 	coneCylinder {level (3 3);
         patchInfo { type wall;}
     }
-	nozzle {level (3 3);}
+	//nozzle {level (3 3);}
  // was 4 4
     }  
 
