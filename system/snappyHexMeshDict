@@ -197,7 +197,7 @@ castellatedMeshControls
 
 
     resolveFeatureAngle 80;  // Resolve sharp angles // Default 30
-    locationInMesh (0 0.05 0);  //to decide which side of mesh to keep **
+    locationInMesh (1.71 0.05 0);  //to decide which side of mesh to keep **
     allowFreeStandingZoneFaces true;
 }
 
