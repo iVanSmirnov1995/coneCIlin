@@ -3,7 +3,7 @@ ForceRoket
 {
 type forces;
 functionObjectLibs ("libforces.so"); //Lib to load
-patches (coneCylinder nozzle); // change to your patch name
+patches (coneCylinder|nozzle); // change to your patch name
 // Name of fields
 pName p;
 Uname U;
