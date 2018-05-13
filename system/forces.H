@@ -3,7 +3,7 @@ ForceRoket
 {
 type forces;
 functionObjectLibs ("libforces.so"); //Lib to load
-patches (coneCylinder, nozzle); // change to your patch name
+patches (coneCylinder nozzle); // change to your patch name
 // Name of fields
 pName p;
 Uname U;
@@ -22,7 +22,7 @@ CoeffsKobraCxmz
 {
 type forceCoeffs;
 functionObjectLibs ("libforces.so");
-patches (coneCylinder, nozzle); //change to your patch name
+patches (coneCylinder nozzle); //change to your patch name
 // Name of fields
 pName p;
 Uname U;
@@ -38,7 +38,7 @@ magUInf 600;
 lRef 2.9;
 Aref 0.0216;
 outputControl timeStep;
-outputInterval 100;
+outputInterval 1;
 }
 
 CoeffsKobraCzCxmy
