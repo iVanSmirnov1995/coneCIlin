@@ -54,7 +54,7 @@ boundaryField
     nozzle
     {
         type            fixedValue;
-        value           uniform 607950;
+        value           uniform 810600;
     }
 
 }
